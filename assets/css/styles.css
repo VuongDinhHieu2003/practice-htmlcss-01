@@ -8,6 +8,11 @@
     --line-clamp: 2;
 }
 
+html, 
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -199,7 +204,8 @@ a {
 
 /* Guides */
 .guides {
-    margin-top: 135px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guides .sub-title {
